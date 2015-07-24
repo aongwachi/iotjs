@@ -14,7 +14,7 @@
  */
 
 
-var fs = require('fs');
+vr fs = require('fs');
 
 try{ // fs.statSync throw ex for non-existing file
   var statbuf1 = fs.statSync('../test');
